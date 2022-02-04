@@ -1,21 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,600;0,800;1,200&display=swap");
-
+body {
+  font-size: 16px;
+}
 * {
   margin: 0;
   padding: 0;
   font-family: "Mulish", sans-serif;
 }
+/* Helper Classes */
+.container {
+  padding: 2rem 10rem;
+  margin: 0 auto;
+}
 
+/* CSS for Navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding: 2rem 5rem;
+  align-items: center;
+  padding: 2rem 10rem;
+  margin-bottom: 30px;
 }
 .right ul {
   list-style: none;
+  display: flex;
+  align-items: center;
 }
 .right ul li {
   display: inline-block;
+  margin-right: 25px;
+  font-weight: 600;
 }
 
 .left ul {
@@ -23,6 +37,8 @@
 }
 .left ul li {
   display: inline-block;
+  margin-right: 25px;
+  font-weight: 600;
 }
 
 .logo {
@@ -31,7 +47,47 @@
   height: 3rem;
   border-radius: 50%;
   color: #fff;
-  text-transform: uppercase;
   text-align: center;
+  text-transform: uppercase;
   font-weight: bold;
+  line-height: 45px;
+}
+
+/* CSS for Header */
+
+.header-h1 {
+  font-size: 3.4375rem;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 130px;
+  width: 482.51px;
+  background-color: #fff;
+  box-shadow: 0px 20px 30px rgba(64, 72, 82, 0.1);
+  border-radius: 10px;
+}
+
+.select-container p {
+  font-size: 13px;
+}
+.select-container select {
+  width: 100%;
+  border: none;
+  font-size: 30px;
+  font-weight: 600;
+}
+.submit-button {
+  background-color: rgba(254, 117, 62, 1);
+  border-radius: 10px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 800;
+  padding: 20px 40px;
+  border: none;
+  cursor: pointer;
 }
