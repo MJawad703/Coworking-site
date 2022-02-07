@@ -91,3 +91,34 @@ body {
   border: none;
   cursor: pointer;
 }
+
+/* CSS FOR DESCRIPTION */
+.description {
+}
+
+.desc-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.desc-heading {
+  width: 300px;
+}
+.desc-heading h3 {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.desc-content {
+  width: 500px;
+}
+.desc-content p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+}
+
+.desc-content p a {
+  text-decoration: none;
+  color: rgba(30, 165, 154, 1);
+}
