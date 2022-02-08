@@ -122,3 +122,62 @@ body {
   text-decoration: none;
   color: rgba(30, 165, 154, 1);
 }
+
+/* card section */
+
+.card-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  height: 470px;
+  width: 320px;
+  background: lightblue;
+  margin-right: 7px;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.girl {
+  background: url("../../assets/images/girl.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.office {
+  background: url("../../assets/images/office.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.phone {
+  background: url("../../assets/images/phone.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.laptop {
+  background: url("../../assets/images/laptop.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.inner-card {
+  position: absolute;
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  bottom: -5px;
+  left: -5px;
+}
+
+.inner-card h5 {
+  color: rgba(30, 165, 154, 1);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.inner-card p {
+  font-size: 13px;
+}
