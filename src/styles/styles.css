@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,600;0,800;1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,700&display=swap");
+
 body {
   font-size: 16px;
 }
@@ -254,4 +255,46 @@ body {
   justify-content: center;
   align-items: center;
   /* opacity: 10%; */
+}
+
+/* Grid Section */
+
+/* .grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+} */
+.grid-heading {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.image-section {
+  height: 210px;
+  width: 320px;
+  background: #e3e3e3;
+  border-radius: 10px;
+}
+.grid-item h4 {
+  color: rgba(30, 165, 154, 1);
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.grid-item p {
+  color: rgba(64, 72, 82, 1);
+  font-size: 13px;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+.bolder {
+  display: inline-block;
+  font-weight: 700;
+  color: 400;
+}
+.lighter {
+  display: inline-block;
+  font-weight: 300;
+  font-size: 13px;
 }
