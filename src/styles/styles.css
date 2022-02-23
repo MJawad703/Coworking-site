@@ -259,11 +259,12 @@ body {
 
 /* Grid Section */
 
-/* .grid-container {
+.grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-} */
+  gap: 30px;
+}
+
 .grid-heading {
   font-size: 30px;
   font-weight: 700;
@@ -274,6 +275,9 @@ body {
   width: 320px;
   background: #e3e3e3;
   border-radius: 10px;
+}
+.grid-item {
+  margin: 0px 30px;
 }
 .grid-item h4 {
   color: rgba(30, 165, 154, 1);
