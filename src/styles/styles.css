@@ -27,6 +27,31 @@ body {
 }
 
 /* CSS for Navbar */
+@media (max-width: 786px) {
+  .navbar {
+    width: 100%;
+    padding: 0;
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: center;
+    padding: 10px 0 !important;
+    margin: 0 !important;
+  }
+  .navbar .right ul li {
+    display: none;
+  }
+  .navbar .left ul li {
+    display: none;
+  }
+  .toggler {
+    display: block !important;
+    cursor: pointer;
+  }
+}
+
+.toggler {
+  display: none;
+}
 .navbar {
   display: flex;
   justify-content: space-around;
@@ -68,6 +93,20 @@ body {
 
 /* CSS for Header */
 
+@media (max-width: 786px) {
+  .header {
+    margin-top: 30px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .header h1 {
+    font-size: 2.4375rem;
+  }
+}
+
 .header-h1 {
   font-size: 3.4375rem;
   font-weight: 800;
@@ -106,7 +145,26 @@ body {
 }
 
 /* CSS FOR DESCRIPTION */
-.description {
+
+@media (max-width: 786px) {
+  .description {
+    margin-top: 40px;
+    padding: 30px !important;
+  }
+  .desc-wrapper {
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .desc-heading h3 {
+    margin-bottom: 20px;
+  }
+  .desc-content {
+    width: 100%;
+  }
+  .desc-content p {
+    text-align: center;
+  }
 }
 
 .desc-wrapper {
@@ -137,7 +195,17 @@ body {
 }
 
 /* card section */
-
+@media (max-width: 786px) {
+  .card-section {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .card {
+    display: block !important;
+    width: 100% !important;
+    margin-bottom: 10px;
+  }
+}
 .card-section {
   display: flex;
   justify-content: space-around;
